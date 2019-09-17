@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { OrgData } from './modules/org-chart/orgData';
-import sampleData from './data.json';
+import sampleData from '../data.json';
 
 @Component({
   selector: 'app-root',

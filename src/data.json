@@ -1,11 +1,12 @@
 [{
     "name": "Hello",
     "type": "User",
-    "children": [{
+    "children": [
+      {
       "name": "Hello1",
       "type": "User",
       "children":[]
-    },
+       },
     {
       "name": "Hello2",
       "type": "User",
@@ -16,4 +17,5 @@
       "type": "User",
       "children":[]
     }]
+
 }]
