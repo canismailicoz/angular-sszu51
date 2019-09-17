@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { OrgData } from './modules/org-chart/orgData';
+import sampleData from './data.json';
 
 @Component({
   selector: 'app-root',
@@ -7,7 +8,7 @@ import { OrgData } from './modules/org-chart/orgData';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  orgData: OrgData= {
+  orgData: OrgData = sampleData; /*{
     name: "Hello",
     type: 'User',
     children: [{
@@ -23,5 +24,5 @@ export class AppComponent {
       type: 'User',
       children:[]
     }]
-  };
+  };*/
 }
